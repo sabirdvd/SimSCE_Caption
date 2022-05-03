@@ -75,7 +75,11 @@ For COCO-caption (413915)  (human labled)
 ```
 !wget clone https://www.dropbox.com/s/6gfu2esshvnj4sm/caption_only.txt.zip
 ```
+For COCO-caption +wiki 1.4M (1413915)
 
+```
+!wget clone  https://www.dropbox.com/s/wc4k677wp24kzhh/COCO%2Bwiki.txt.zip
+```
 
 Download Eva tools 
 
