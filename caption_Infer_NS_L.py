@@ -44,7 +44,7 @@ model = blip_decoder(pretrained=model_url, image_size=image_size, vit='large')
 # all images 
 #filenames = glob.glob("image_karpathy_test_images/*.jpg")
 #filenames = glob.glob("COCO_val2014_000000039068.jpg")
-filenames = glob.glob("BLIP_image_caption_demo/COCO_val2014_000000000042.jpg")
+filenames = glob.glob("image/COCO_val2014_000000000042.jpg")
 
 filenames.sort()
 for image in filenames:
