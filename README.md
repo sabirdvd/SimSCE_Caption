@@ -135,6 +135,7 @@ However, when combining the against textual visual + wik, the visual feature + w
 | SimCSE-BERT wiki+COCO  | 73.9 |
 | MCSE-BERT wiki+COCO  [(Zhang et al. 2022)](https://arxiv.org/pdf/2204.10931.pdf)  | **78.5** |
 |this work wiki+COCO | 74.0 |
+| this work+COCO+CC| 00.0      |
 
 
 
