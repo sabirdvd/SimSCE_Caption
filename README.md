@@ -104,3 +104,15 @@ After just one epoch the acc of stsb_spearman is 0.738, which is good starting p
 {'eval_stsb_spearman': 0.7387001154236623, 'eval_sickr_spearman': 0.6885353012423283, 'eval_avg_sts': 0.7136177083329953}
 ```
 
+Our reult better that SoTa that trained on only caption 
+
+
+| Model | stsb |
+| ------------- | ------------- |
+| SimCSE-BERT   | 67.8  |
+| MCSE-BERT [(Zhang et al. 2022)](https://arxiv.org/pdf/2204.10931.pdf)  | 71.6 |
+|this work | **73.8** |
+
+
+
+
