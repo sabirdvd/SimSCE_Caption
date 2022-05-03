@@ -115,18 +115,7 @@ python train.py \
     "$@"
 ```
 
-## Preliminary results (work in progress)
-After just one epoch the acc of stsb_spearman is 0.738, which is good starting point 
-
-```
-05/03/2022 14:44:17 - INFO - simcse.trainers -     Num examples = 2255927
-05/03/2022 14:44:17 - INFO - simcse.trainers -     Num Epochs = 1
-05/03/2022 14:44:17 - INFO - simcse.trainers -     Instantaneous batch size per device = 16
-05/03/2022 14:44:17 - INFO - simcse.trainers -     Total train batch size (w. parallel, distributed & accumulation) = 16
-05/03/2022 14:44:17 - INFO - simcse.trainers -     Gradient Accumulation steps = 1
-05/03/2022 14:44:17 - INFO - simcse.trainers -     Total optimization steps = 140996
-{'eval_stsb_spearman': 0.7387001154236623, 'eval_sickr_spearman': 0.6885353012423283, 'eval_avg_sts': 0.7136177083329953}
-```
+## Preliminary results Acc of stsb_spearman  (work in progress)
 
 Our reult better that SoTa that trained on only caption 
 
