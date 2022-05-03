@@ -126,7 +126,7 @@ Our reult better that SoTa that trained on only caption
 |this work COCO-caption | 71.7 |
 |this work CC | **73.8** |
 
-However, when combining the against textual visual + wik, the visual feature + wiki have better result (Zhang et al. 2022)
+However, when combining the against textual visual + wiki, the visual feature + wiki have better result (Zhang et al. 2022)
 
 
 | Model | stsb |
