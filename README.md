@@ -20,7 +20,13 @@ pip install -r requirements.txt
 
 git clone https://github.com/sabirdvd/BLIP_image_caption_demo.git
 cp caption_Inference_L.py ../
+
+# for beam search 
 python caption_Inference_L.py
+
+cp caption_Infer_NS_L.py /BLIP 
+#nucleus sampling 
+python caption_Infer_NS_L.py
 
 ```
 Please refer to my [blog](https://github.com/sabirdvd/BLIP_image_caption_demo) about nucleus sampling and the original [BLIP paper](https://arxiv.org/pdf/2201.12086.pdf)  
