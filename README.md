@@ -60,7 +60,6 @@ For CC+wiki 3M (3255928)
 
 ```
 !wget clone https://www.dropbox.com/s/1whxunhaze7hkk2/CC_caption_40%2Bwiki.txt.zip
-
 ```
 
 For CC+wiki+COCO-Caption  3.5M (366984)
