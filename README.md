@@ -137,7 +137,7 @@ Our reult better that SoTa that trained on only caption
 | MCSE-BERT [(Zhang et al. 2022)](https://arxiv.org/pdf/2204.10931.pdf)  | 71.6 |
 |this work | **73.8** |
 
-However, when combind the visual feature aginst textual visual + wiki 
+However, when combined the visual feature against textual visual + wiki 
 
 
 | Model | stsb |
