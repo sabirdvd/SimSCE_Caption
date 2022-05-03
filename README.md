@@ -63,6 +63,18 @@ For CC+wiki 3M (3255928)
 
 ```
 
+For CC+wiki+COCO-Caption  3.5M (366984)
+
+```
+!wget clone https://www.dropbox.com/s/k7oqwr9a1a0h8x1/CC_caption_40%2Bwiki%2BCOCO.txt.zip
+
+```
+
+For COCO-caption (413915)  (human labled) 
+
+```
+!wget clone https://www.dropbox.com/s/6gfu2esshvnj4sm/caption_only.txt.zip
+```
 
 
 Download Eva tools 
