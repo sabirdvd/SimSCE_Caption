@@ -114,7 +114,7 @@ python train.py \
     "$@"
 ```
 
-## Preliminary results Acc of stsb_spearman  (work in progress)
+## Preliminary results --  stsb_spearman  (work in progress)
 
 Our result is better than SOTA which trained only on caption dataset. 
 
