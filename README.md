@@ -116,7 +116,7 @@ python train.py \
 
 ## Preliminary results Acc of stsb_spearman  (work in progress)
 
-Our reult better that SoTa that trained on only caption 
+Our result is better than SOTA which trained only on caption dataset. 
 
 
 | Model | stsb |
