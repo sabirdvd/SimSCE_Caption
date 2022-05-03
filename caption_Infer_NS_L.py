@@ -56,12 +56,14 @@ for image in filenames:
       model = model.to(device)
 
       with torch.no_grad():
-          caption = model.generate(image, sample=False, num_beams=3, max_length=20, min_length=5)
+          # Beam  
+          # caption = model.generate(image, sample=False, num_beams=3, max_length=20, min_length=5)
+          # nucleus sampling
+          caption = model.generate(image, sample=True, top_p=0.9, max_length=20, min_length=5)   
           #print(caption[0])
   except:
-      caption = 'gary_images'
-    # nucleus sampling
-    # caption = model.generate(image, sample=True, top_p=0.9, max_length=20, min_length=5) 
+      caption = 'gary_images' 
+   
   print('caption: '+caption[0])
   with open('result_b3_fixed.txt', 'a') as fp:
       fp.write(caption[0])
