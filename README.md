@@ -139,7 +139,7 @@ Our reult better that SoTa that trained on only caption
 
 However, when combining the against textual visual + wik, the visual feature + wiki have better result (Zhang et al. 2022)
 
-_
+
 | Model | stsb |
 | ------------- | ------------- |
 | SimCSE-BERT   | 73.9 |
