@@ -50,12 +50,21 @@ pip install -r /content/SimCSE/requirements.txt
 cd SimSCE
 ```
 
-Download the generated Caption dataset from Conceptinal Caption with light filtering (e.g., without caption that less than 40 character) 
+Download the generated Caption dataset from Conceptinal Caption (CC) with light filtering (e.g., without caption that less than 40 character) 
 the result is 2M (2255927 captions) and without any filter (2864924)
 
 ```
 !wget clone https://www.dropbox.com/s/pc1uv2rf6nqdp57/CC_caption_40.txt.zip
 ```
+For CC+wiki 3M (3255928) 
+
+```
+!wget clone https://www.dropbox.com/s/1whxunhaze7hkk2/CC_caption_40%2Bwiki.txt.zip
+
+```
+
+
+
 Download Eva tools 
 
 ```
