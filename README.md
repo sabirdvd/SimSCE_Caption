@@ -34,7 +34,7 @@ Please refer to my [blog](https://github.com/sabirdvd/BLIP_image_caption_demo) a
 
 
 Download 3.3 million images from [Conceptinal Caption](https://ai.google.com/research/ConceptualCaptions/) 300G
-Not that, the  download is slow, so it will take a couple of days. 
+Note that, the  download is slow, so it will take a couple of days. 
 
 ## Training 
 
