@@ -11,6 +11,27 @@ In this project, we are trying   to learn semantic similarity in an unsupervised
 
 Note that the problem with [Conceptinal Caption](https://ai.google.com/research/ConceptualCaptions/) is the noisy alignment between text and images. 
 
+
+## Dataset  
+
+Download 3.3 million images from [Conceptinal Caption](https://ai.google.com/research/ConceptualCaptions/) size around 300G+ using this code [igorbrigadir](https://github.com/igorbrigadir/DownloadConceptualCaptions)
+
+Place data from: https://ai.google.com/research/ConceptualCaptions/download in this folder
+
+```Train_GCC-training.tsv``` Training Split (3,318,333)
+
+```Validation_GCC-1.1.0-Validation.tsv```  Validation Split (15,840)
+
+
+
+And run
+```
+download_data.py
+```
+
+Note that, the download is slow, so it will take a couple of days.
+
+
 ## Caption generation 
 
 Download BLIP with nucleus sampling 
@@ -33,13 +54,6 @@ python caption_Infer_NS_L.py
 Please refer to my [blog](https://github.com/sabirdvd/BLIP_image_caption_demo) about nucleus sampling and the original [BLIP paper](https://arxiv.org/pdf/2201.12086.pdf)  
 
 
-Download 3.3 million images from [Conceptinal Caption](https://ai.google.com/research/ConceptualCaptions/) size around 300G+ using this code [igorbrigadir](https://github.com/igorbrigadir/DownloadConceptualCaptions)
-
-```
-download_data.py
-```
-
-Note that, the download is slow, so it will take a couple of days.
 
 ## Training 
 
