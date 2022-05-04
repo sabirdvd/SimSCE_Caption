@@ -133,10 +133,41 @@ python train.py \
     "$@"
 ```
 
+## Inference 
+
+
+```python 
+In [2]: tokenizer = AutoTokenizer.from_pretrained("/Users/asabir/MCSE/pre-trained/coco_mcse_roberta")
+
+In [3]: model = AutoModel.from_pretrained("/Users/asabir/MCSE/pre-trained/coco_mcse_roberta")
+
+In [4]: texts = [
+   ...:     "There's a kid on a skateboard.",
+   ...:     "A kid is skateboarding.",
+   ...:     "A kid is inside the house."
+   ...: ]
+   ...: inputs = tokenizer(texts, padding=True, truncation=True, return_tensors="pt")
+   ...:
+   ...: # Get the embeddings
+   ...: with torch.no_grad():
+   ...:     embeddings = model(**inputs, output_hidden_states=True, return_dict=True).pooler_output
+   ...:
+   ...: # Calculate cosine similarities
+   ...: # Cosine similarities are in [-1, 1]. Higher means more similar
+   ...: cosine_sim_0_1 = 1 - cosine(embeddings[0], embeddings[1])
+   ...: cosine_sim_0_2 = 1 - cosine(embeddings[0], embeddings[2])
+   ...:
+   ...: print("Cosine similarity between \"%s\" and \"%s\" is: %.3f" % (texts[0], texts[1], cosine_sim_0_1))
+   ...: print("Cosine similarity between \"%s\" and \"%s\" is: %.3f" % (texts[0], texts[2], cosine_sim_0_2))
+Cosine similarity between "There's a kid on a skateboard." and "A kid is skateboarding." is: 0.815
+Cosine similarity between "There's a kid on a skateboard." and "A kid is inside the house." is: 0.553
+
+```
+
+
+
+
 ## Preliminary results --  stsb_spearman  (work in progress)
-
-
-
 
 wiki only 
 
