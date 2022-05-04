@@ -119,6 +119,16 @@ python train.py \
 Our result is better than SOTA which trained only on caption dataset. 
 
 
+
+
+| Model | stsb |
+| ------------- | ------------- |
+| Baseline: SimCSE-BERT  | **76.9**   |
+|this work  | 59.1 |
+
+
+
+
 | Model | stsb |
 | ------------- | ------------- |
 | Baseline: SimCSE-BERT COCO-caption  | 67.8  |
