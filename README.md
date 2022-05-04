@@ -33,7 +33,8 @@ python caption_Infer_NS_L.py
 Please refer to my [blog](https://github.com/sabirdvd/BLIP_image_caption_demo) about nucleus sampling and the original [BLIP paper](https://arxiv.org/pdf/2201.12086.pdf)  
 
 
-Download 3.3 million images from [Conceptinal Caption](https://ai.google.com/research/ConceptualCaptions/) 300G
+Download 3.3 million images from [Conceptinal Caption](https://ai.google.com/research/ConceptualCaptions/) 300G using this code [igorbrigadir](https://github.com/igorbrigadir/DownloadConceptualCaptions)
+
 Note that, the  download is slow, so it will take a couple of days. 
 
 ## Training 
