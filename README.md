@@ -137,9 +137,9 @@ python train.py \
 
 
 ```python 
-In [2]: tokenizer = AutoTokenizer.from_pretrained("/Users/asabir/MCSE/pre-trained/coco_mcse_roberta")
+In [2]: tokenizer = AutoTokenizer.from_pretrained("pre-trained")
 
-In [3]: model = AutoModel.from_pretrained("/Users/asabir/MCSE/pre-trained/coco_mcse_roberta")
+In [3]: model = AutoModel.from_pretrained("pre-trained")
 
 In [4]: texts = [
    ...:     "There's a kid on a skateboard.",
