@@ -1,4 +1,4 @@
-# Unspervied-SimSCE Caption via BLIP nucleus sampling
+# Unspervied-SimSCE via BLIP nucleus sampling
 
 
 In this project, we are trying   to learn semantic similarity in an unsupervised manner via a synthetic caption dataset (e.g., nucleus sampling ([Holtzman et al 2020](https://arxiv.org/abs/1904.09751))). The advantage of nucleus sampling is that, unlike traditional beam serach that generates safe captions, it generates more surprising diverse generate caption. The reserach question is: can we learn a good sentence represention from 3 million synthetic caption? 
