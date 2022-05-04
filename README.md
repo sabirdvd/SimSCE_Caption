@@ -116,10 +116,10 @@ python train.py \
 
 ## Preliminary results --  stsb_spearman  (work in progress)
 
-Our result is better than SOTA which trained only on caption dataset. 
 
 
 
+wiki only 
 
 | Model | stsb |
 | ------------- | ------------- |
@@ -127,7 +127,7 @@ Our result is better than SOTA which trained only on caption dataset.
 |this work  | 59.1 |
 
 
-
+Our result is better than SOTA which trained only on caption dataset. 
 
 | Model | stsb |
 | ------------- | ------------- |
