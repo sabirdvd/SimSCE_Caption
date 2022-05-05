@@ -51,8 +51,9 @@ cp caption_Infer_NS_L.py /BLIP
 python caption_Infer_NS_L.py
 
 ```
+<!---
 Please refer to my [blog](https://github.com/sabirdvd/BLIP_image_caption_demo) about nucleus sampling and the original [BLIP paper](https://arxiv.org/pdf/2201.12086.pdf)  
-
+-->
 
 
 ## Training 
@@ -137,8 +138,10 @@ python train.py \
     --do_eval \
     "$@"
 ```
+<!---
+ [colab](https://colab.research.google.com/drive/14BNaxj1yrNolAoy9uuABiFrwwTzniHCx?usp=sharing) demo here
+-->
 
-A [colab](https://colab.research.google.com/drive/14BNaxj1yrNolAoy9uuABiFrwwTzniHCx?usp=sharing) demo here
 
 ## Inference 
 
