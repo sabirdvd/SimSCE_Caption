@@ -115,6 +115,7 @@ Download bert-base-uncased huggingface version TF->pytorch
 git clone https://huggingface.co/roberta-base
 ```
 
+run  
 
 ```
 python train.py \                                                                                                                     
@@ -136,6 +137,8 @@ python train.py \
     --do_eval \
     "$@"
 ```
+
+A [colab](https://colab.research.google.com/drive/14BNaxj1yrNolAoy9uuABiFrwwTzniHCx?usp=sharing) demo here
 
 ## Inference 
 
