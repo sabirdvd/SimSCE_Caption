@@ -106,7 +106,9 @@ cd SentEval/data/downstream/
 bash download_dataset.sh
 ``` 
 
-Download bert-base-uncased huggingface version TF->pytorch
+
+
+Download [bert-base-uncased huggingface](https://huggingface.co/bert-base-uncased/tree/main) version TF->pytorch
 ```
 git clone https://huggingface.co/bert-base-uncased
 ```
