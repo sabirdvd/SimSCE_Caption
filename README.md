@@ -107,9 +107,13 @@ bash download_dataset.sh
 
 Download bert-base-uncased huggingface version TF->pytorch
 ```
-!git clone https://huggingface.co/bert-base-uncased
+git clone https://huggingface.co/bert-base-uncased
 ```
+Download bert-base-uncased huggingface version TF->pytorch
 
+```
+git clone https://huggingface.co/roberta-base
+```
 
 
 ```
