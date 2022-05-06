@@ -191,7 +191,7 @@ wiki only
 | Model | stsb |
 | ------------- | ------------- |
 | Baseline: SimCSE-BERT  | **76.9**   |
-|this work  | 59.1 |
+|this work  | 0.71 |
 
 
 Our result is better than SOTA which trained only on caption dataset. 
