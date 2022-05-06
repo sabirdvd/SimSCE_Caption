@@ -81,7 +81,7 @@ GPT-3 davinci-001
 python GPT-3_prompt.py
 ```
 
-Caption propmpt 
+Caption propmpt  ** prompt ** 
 
 ```
 **Write more about this caption:**
@@ -89,6 +89,9 @@ Caption propmpt
 a man hitting a tennis ball
 
 This caption is about a man hitting a tennis ball. The man is hitting the tennis ball against a wall. He is doing this to improve his tennis skills. 
+
+
+**a man hitting a tennis ball**
 
 A tennis ball is a spherical object that is used in the sport of tennis. It is hit by a player's hand and then hits a racket before being sent over the net.
 
