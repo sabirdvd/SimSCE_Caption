@@ -60,6 +60,14 @@ python caption_Infer_NS_L.py
 Please refer to my [blog](https://github.com/sabirdvd/BLIP_image_caption_demo) about nucleus sampling and the original [BLIP paper](https://arxiv.org/pdf/2201.12086.pdf)  
 -->
 
+## Text generation 
+Another idea is to use a language model (i.e., GPT2/3 to increase the data) via prompting.
+
+```
+py GPT
+```
+
+
 
 ## Training 
 
