@@ -61,9 +61,9 @@ Please refer to my [blog](https://github.com/sabirdvd/BLIP_image_caption_demo) a
 -->
 
 ## Text generation 
-Another idea is to use a language model (i.e., GPT2/3 to increase the data) via prompting.
+Another idea is to use a language model (i.e., GPT2/3 to increase the data) via generation or prompting.
 
-Example GPT-2 huggingface, the result is nosiy (unhuman like)
+Generation Example GPT-2 huggingface, the result is nosiy (unhuman like)
 
 ```
 python GPT-2_prompt.py
