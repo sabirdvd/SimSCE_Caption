@@ -66,7 +66,7 @@ Another idea is to use a language model (i.e., GPT2/3 to increase the data) via 
 Generation Example GPT-2 huggingface, the result is nosiy (unhuman like)
 
 ```
-python GPT-2_prompt.py
+python GPT-2_gen.py
 ```
 
 ```
@@ -75,19 +75,26 @@ Input: a man hitting a tennis ball
 a man hitting a tennis ball. The ball broke. The man said he hit it because of bad luck. The man who hit it got his ball
 ```
 
-GPT-3 
+GPT-3 davinci-001
 
 ```
 python GPT-3_prompt.py
 ```
 
+Caption propmpt 
 ```
 prompt: a man hitting a tennis ball
 
 A tennis ball is a spherical object that is used in the sport of tennis. It is hit by a player's hand and then hits a racket before being sent over the net.
 
 ```
+text propmpt 
 
+
+````
+prompt:
+
+```
 
 
 ## Training 
