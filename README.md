@@ -81,7 +81,7 @@ GPT-3 davinci-001
 python GPT-3_prompt.py
 ```
 
-Caption propmpt  ** prompt ** 
+Caption prompt   ** prompt ** 
 
 ```
 **Write more about this caption:**
