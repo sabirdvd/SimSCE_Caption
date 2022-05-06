@@ -5,10 +5,11 @@ In this project, we are trying   to learn semantic similarity in an unsupervised
 
 (1) If the answer is yes, then we could combined this with wiki data to learn general semantic simairlty task like UNIMO [(Li et al 2021)](https://medium.com/@iee_53136/paper-summary-unimo-towards-unified-modal-understanding-and-generation-via-cross-modal-8c9e881c2012) and MCSE [(Zhang et al. 2022)](https://arxiv.org/pdf/2204.10931.pdf).
 
+
+
 ```
 python 3.6
 torch 1.7.1 with cuda 10.1
-
 ```
 
 
