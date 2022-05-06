@@ -12,7 +12,6 @@ openai.api.key = API_KEY
 
 parser=argparse.ArgumentParser()
 parser.add_argument('--input',  default='', help='input_prompt', type=str,required=True)
-#parser.add_argument('--vis', default='visual_context_label.txt', help='visual_context from ResNet', type=str,required=True)
 parser.add_argument('--output', default='', help='', type=str,required=True)
 args = parser.parse_args()
 
@@ -21,8 +20,6 @@ args = parser.parse_args()
 with open(args.input,'rU') as f:
         for line in f:
                 file1.append(line.rstrip())
-
-                with open('object2','rU') as f1:
 
 
 
@@ -34,7 +31,6 @@ for i in range(len(file1)):
 
 	temp.append(responces)
 	result= +str(w)
-	#result = file1[i]+',',+file2[i]+','+(w)
 	f.write(result)
 	f.write('\n')
 	print w
