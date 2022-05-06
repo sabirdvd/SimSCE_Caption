@@ -152,6 +152,7 @@ python train.py \
 
 ## Inference 
 
+Follwing the SimSCE  
 
 ```python 
 In [2]: tokenizer = AutoTokenizer.from_pretrained("pre-trained")
