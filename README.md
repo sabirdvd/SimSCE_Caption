@@ -70,7 +70,7 @@ python GPT-2_prompt.py
 ```
 
 ```
-prompt: a man hitting a tennis ball
+Input: a man hitting a tennis ball
 
 a man hitting a tennis ball. The ball broke. The man said he hit it because of bad luck. The man who hit it got his ball
 ```
@@ -82,6 +82,9 @@ python GPT-3_prompt.py
 ```
 
 ```
+prompt: a man hitting a tennis ball
+
+A tennis ball is a spherical object that is used in the sport of tennis. It is hit by a player's hand and then hits a racket before being sent over the net.
 
 ```
 
