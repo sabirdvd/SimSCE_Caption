@@ -114,6 +114,17 @@ a man hitting a tennis ball
 A man hitting a tennis ball is playing tennis.
 ```
 
+gpt-j-6B 
+
+
+```
+**Write more about this caption:**
+
+Input: a man hitting a tennis ball
+
+``` 
+
+
 ## Training 
 
 Dowload SimSCE 
