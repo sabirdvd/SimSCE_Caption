@@ -3,7 +3,9 @@
 please refer to medium post 
 
 
-In this project, we are trying   to learn semantic similarity in an unsupervised manner via a synthetic caption dataset (e.g., nucleus sampling ([Holtzman et al 2020](https://arxiv.org/abs/1904.09751))). The advantage of nucleus sampling is that, unlike traditional beam serach that generates safe captions, it generates more surprising diverse generate caption. The reserach question is: can we learn a good sentence represention from 3 million synthetic caption? 
+<!---Supervised learning model fine-tuning is like a kinda cheating and doesn't generalize well specially on the COCO dataset -->
+
+In this project, suproved model fine-tuneing is like kinda cheating and doesnt generlozaton well  we are trying   to learn semantic similarity in an unsupervised manner via a synthetic caption dataset (e.g., nucleus sampling ([Holtzman et al 2020](https://arxiv.org/abs/1904.09751))). The advantage of nucleus sampling is that, unlike traditional beam serach that generates safe captions, it generates more surprising diverse generate caption. The reserach question is: can we learn a good sentence represention from 3 million synthetic caption? 
 
 (1) If the answer is yes, then we could combined this with wiki data to learn general semantic simairlty task like UNIMO [(Li et al 2021)](https://medium.com/@iee_53136/paper-summary-unimo-towards-unified-modal-understanding-and-generation-via-cross-modal-8c9e881c2012) and MCSE [(Zhang et al. 2022)](https://arxiv.org/pdf/2204.10931.pdf).
 
