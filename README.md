@@ -97,6 +97,12 @@ A tennis ball is a spherical object that is used in the sport of tennis. It is h
 
 A tennis ball is a ball that is used in the sport of tennis. It is round and has a diameter of about 68.5 mm (2.7 in). Tennis balls are usually made of a synthetic rubber, but can also be made of natural rubber.
 
+**Tell me more about this text:**
+
+a couple of people riding horses across a sandy beach
+
+This text describes a scene of a couple of people riding horses across a sandy beach. The horses are galloping and the riders are enjoying the view. This image is peaceful and calming, and it is easy to imagine being a part of it.
+
 **Tell more about this sentence:**
 
 a man hitting a tennis ball 
