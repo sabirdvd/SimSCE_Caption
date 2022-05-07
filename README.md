@@ -108,8 +108,6 @@ This text describes a scene of a couple of people riding horses across a sandy b
 a man hitting a tennis ball 
 
 A man hitting a tennis ball is playing tennis.
-
-
 ```
 
 ## Training 
