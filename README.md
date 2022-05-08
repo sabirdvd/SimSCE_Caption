@@ -1,6 +1,7 @@
 # Unspervied-SimSCE via BLIP nucleus sampling
 
-please refer to medium post 
+
+Please refer to this medium blog post for more detail.
 
 
 <!---Supervised learning model fine-tuning is like a kinda cheating and doesn't generalize well specially on the COCO dataset -->
