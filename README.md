@@ -171,7 +171,7 @@ a old boy hitting a tennis ball
 
 ```
 
-
+Note, that all the techniques to increase the data mentioned above will be applied over a human-written. 
 
 
 ## Training 
