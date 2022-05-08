@@ -123,6 +123,8 @@ gpt-j-6B  (max_length=35)
 
 Input: a man hitting a tennis ball
 
+a man hitting a tennis ball into the air, and then his return shots.
+
 ``` 
 
 To run this locally you need GPU and 16GRAM+ (recomanded 32GRAM) , please have look at this [hugging face post](https://huggingface.co/blog/how-to-generate)  for diffrent generation method (e.g, beam serach)
