@@ -134,6 +134,12 @@ This concluded that the bigger the model the more robust against context.
 To run this locally you need GPU and 16GRAM+ (recomanded 32GRAM) , please have look at this [hugging face post](https://huggingface.co/blog/how-to-generate)  for diffrent generation method (e.g, beam serach)
 
 
+## Text data augmentation
+
+A fast and cheap way to increase the data is using data augmentation strategies 
+
+
+
 ## Training 
 
 Dowload SimSCE 
