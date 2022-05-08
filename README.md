@@ -121,6 +121,8 @@ gpt-j-6B  (max_length=35)
 ```
 **Write more about this caption:**
 
+Write more about this caption: a man hitting a tennis ball with some friends at the end of a long hike, late afternoon in the mountains in New Mexico, USA.
+
 Input: a man hitting a tennis ball
 
 a man hitting a tennis ball into the air, and then his return shots.
