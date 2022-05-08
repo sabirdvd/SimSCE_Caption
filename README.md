@@ -154,6 +154,20 @@ augmentor = RandAugment([
 
 
 ```
+input text 
+
+```python 
+text = [
+    "a man hitting a tennis ball"
+    
+for data in text:
+    for tx in augmentor:
+        data = tx(data)
+    print(data)
+
+```
+
+output 
 
 
 
