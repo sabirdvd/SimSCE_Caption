@@ -114,7 +114,7 @@ a man hitting a tennis ball
 A man hitting a tennis ball is playing tennis.
 ```
 
-gpt-j-6B 
+gpt-j-6B  
 
 
 ```
@@ -123,6 +123,8 @@ gpt-j-6B
 Input: a man hitting a tennis ball
 
 ``` 
+
+To run this locally you need GPU and 16GRAM+
 
 
 ## Training 
