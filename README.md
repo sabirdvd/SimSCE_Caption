@@ -138,6 +138,24 @@ To run this locally you need GPU and 16GRAM+ (recomanded 32GRAM) , please have l
 
 A fast and cheap way to increase the data is using data augmentation strategies 
 
+```python 
+
+from niacin.augment import RandAugment
+from niacin.text import en
+
+augmentor = RandAugment([
+    en.add_synonyms,
+    en.add_hyponyms,
+    en.add_misspelling,
+    en.swap_words,
+    en.add_contractions,
+    en.add_whitespace,
+], n=2, m=15, shuffle=False)
+
+
+```
+
+
 
 
 ## Training 
