@@ -79,10 +79,10 @@ Input: a man hitting a tennis ball
 a man hitting a tennis ball. The ball broke. The man said he hit it because of bad luck. The man who hit it got his ball
 ```
 
-GPT-3 davinci-001
+GPT-3 davinci-001  (max_length=35)
 
 ```
-python GPT-3_prompt.py
+python GPT-3_prompt.py 
 ```
 
 Caption prompt   ** prompt ** 
@@ -114,7 +114,7 @@ a man hitting a tennis ball
 A man hitting a tennis ball is playing tennis.
 ```
 
-gpt-j-6B  
+gpt-j-6B  (max_length=35)
 
 
 ```
