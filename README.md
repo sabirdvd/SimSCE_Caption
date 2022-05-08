@@ -124,7 +124,7 @@ Input: a man hitting a tennis ball
 
 ``` 
 
-To run this locally you need GPU and 16GRAM+
+To run this locally you need GPU and 16GRAM+, please have look at this [hugging face post](https://huggingface.co/blog/how-to-generate)  for diffrent generation method (e.g, beam serach)
 
 
 ## Training 
