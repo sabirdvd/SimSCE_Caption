@@ -36,7 +36,7 @@ for i in range(len(text)):
 
         temp.append(data)
         result= str(data)
-        #result = file1[i]+',',+file2[i]+','+(w)
         f.write(result)
+
         f.write('\n')
 f.close()
