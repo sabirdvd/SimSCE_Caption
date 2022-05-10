@@ -136,7 +136,7 @@ To run this locally you need GPU and 16GRAM+ (recomanded 32GRAM) , please have l
 
 ## Text data augmentation
 
-A fast and cheap way to increase the data is using data augmentation strategies 
+A fast and cheap way to increase the data is using [data augmentation strategies](https://niacin.readthedocs.io/en/latest/) 
 
 ```python 
 
