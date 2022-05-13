@@ -263,6 +263,14 @@ python train.py \
  [colab](https://colab.research.google.com/drive/14BNaxj1yrNolAoy9uuABiFrwwTzniHCx?usp=sharing) demo here
 -->
 
+Pre-trained model 
+
+```
+wget clone https://www.dropbox.com/s/dezln4bzjguxbn3/my-unsup-simcse-caption.zip
+```
+
+
+
 
 ## Inference 
 
