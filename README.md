@@ -184,10 +184,9 @@ pip install -r /content/SimCSE/requirements.txt
 
 ```
 
+replaced the original ```trainers.py``` with the provided one 
 
-```
-cd SimSCE
-```
+
 
 Download the generated Caption dataset from Conceptinal Caption (CC) with light filtering (e.g., without caption that less than 40 character) 
 the result is 2M (2255927 captions) and without any filter (2864924)
