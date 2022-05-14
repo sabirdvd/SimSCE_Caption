@@ -181,7 +181,6 @@ Dowload SimSCE
 ```
 git clone https://github.com/princeton-nlp/SimCSE.git
 pip install -r /content/SimCSE/requirements.txt
-
 ```
 
 replaced the original ```trainers.py``` with the provided one 
