@@ -217,7 +217,10 @@ wget clone  https://www.dropbox.com/s/wc4k677wp24kzhh/COCO%2Bwiki.txt.zip
 ```
 
 
-For COCO-caption+wiki+CC+8Mwiki 11M (11541667)
+
+Image caption corpus does not train a good language model (Tan and Bansal, 2020). Therefore we add 7M sentence from wiki to the caption dataset 
+
+```COCO-caption+wiki+CC+8Mwiki 11M (11541667)``` 
 
 ```
 wget clone https://www.dropbox.com/s/xhfx32sjy2z5bpa/11M_wiki_7M%2BCC%2BCOCO.txt.zip
