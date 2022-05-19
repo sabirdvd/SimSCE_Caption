@@ -218,7 +218,8 @@ wget clone  https://www.dropbox.com/s/wc4k677wp24kzhh/COCO%2Bwiki.txt.zip
 
 
 
-Image caption corpus does not train a good language model (Tan and Bansal, 2020). Therefore we add 7M sentence from wiki to the caption dataset 
+Image caption corpus does not train a good language model 
+[(Tan and Bansal, 2020)](https://aclanthology.org/2020.emnlp-main.162.pdf). Therefore we add 7M sentence from wiki to the caption dataset 
 
 ```COCO-caption+wiki+CC+8Mwiki 11M (11541667)``` 
 
