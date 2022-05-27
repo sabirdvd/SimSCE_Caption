@@ -3,6 +3,9 @@
 
 Please refer to this medium blog post for more detail.
 
+```
+Please note that you need to export OPENAI_API_KEY="YOUR_OPENAI_KEY before running GPT-3 scripts.
+```
 
 <!---Supervised learning model fine-tuning is like a kinda cheating and doesn't generalize well specially on the COCO dataset -->
 
